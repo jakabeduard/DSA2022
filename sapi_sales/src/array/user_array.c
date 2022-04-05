@@ -5,7 +5,10 @@
 #include "../../headers/array/user_array.h"
 
 void createUserArray(UserArray **userArray, unsigned int maxUsers) {
-    (**userArray)=(userArray**)malloc(maxUser* sizeof(*UserArray));
+    (*userArray)=(UserArray*)malloc(sizeof(UserArray));
+    if (!(*userArray)){ printErrorMassage(MEMORY_ALLOCATION);}
+    (*userArray)->maxUser
+
     for (int i = 0; i < maxUsers; ++i) {
         (*userArray)->users[i]=(User**) malloc(maxUsers*sizeof(User));
     }
