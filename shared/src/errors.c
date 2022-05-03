@@ -2,7 +2,7 @@
 // Created by Last Gen Networks on 2/24/2022.
 //
 
-#include "../headers/errors.h"
+#include "errors.h"
 
 void printErrorMassage(enum ErrorType error) {
     switch (error) {

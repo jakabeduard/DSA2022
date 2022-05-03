@@ -6,7 +6,7 @@
 void createUserQueue(UserQueue **userQueue, unsigned int maxSize){
     (*userQueue)=malloc(sizeof (userQueue));
 
-    if (!userQueue){printErrorMassage("sikertelen helyfoglalas");}
+    if (!(&userQueue)){printErrorMassage(MEMORY_ALLOCATION);}
     (*userQueue)->size=maxSize;
     (*userQueue)->front=-1;
     (*userQueue)->rear=-1;
@@ -65,7 +65,7 @@ int findElementInQueue(UserQueue* userQueue, int userId){
 void printQueue(UserQueue* userQueue, char*destination){
     freopen( destination , "w", stdout);
     for (int i = userQueue->front; i < userQueue->rear; ++i) {
-        printUser(userQueue->users[i]);
+        printUser(userQueue->users[i],"CON");
 
     }
 

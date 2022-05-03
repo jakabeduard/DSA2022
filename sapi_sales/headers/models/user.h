@@ -17,6 +17,8 @@ typedef struct {
     unsigned  int month;
     unsigned int day;
 }BirthDate;
+
+
 enum UserType{
     STUDENT, TEACHER
 };

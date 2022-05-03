@@ -14,9 +14,9 @@ typedef struct {
 }UserArray;
 
 void  createUserArray(UserArray ** userArray, unsigned int maxUsers);
-void deleteUserArray(UserArray  **userArray, User *newUser, unsigned int position);
-bool addUser(UserArray* userArray, User* newUser, unsigned int position);
-User *getUserAtPosition(UserArray* userArray,  unsigned  int position);
+void deleteUserArray(UserArray  **userArray);
+void addUser(UserArray* userArray, User* newUser, unsigned int position);
+///User *getUserAtPosition(UserArray* userArray,  unsigned  int position);
 
 
 void readUser(UserArray *userArray, char *from );

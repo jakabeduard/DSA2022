@@ -74,7 +74,7 @@ void printProduct(Product *product) {
 void deleteProduct(Product **product) {
     free(*product);
     *product=NULL;/// miert  kelll  ezt?
-    printDescriptionMessage(DELETED); /////szerintem ez  sem a legjobb
+
 
 
 }

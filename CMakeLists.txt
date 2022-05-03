@@ -16,8 +16,6 @@ add_executable(labs introduction/src/main.c
         sapi_sales/headers/models/user.h
         shared/src/errors.c
         shared/headers/errors.h
-        shared/src/messages.c
-        shared/headers/messages.h
         shared/headers/constans.h
         sapi_sales/src/main.c sapi_sales/src/array/user_array.c sapi_sales/headers/array/user_array.h sapi_sales/src/array/product_array.c sapi_sales/headers/array/product_array.h sapi_sales/src/manager/lab4.c sapi_sales/headers/manager/lab4.h)
 include_directories(introduction/headers

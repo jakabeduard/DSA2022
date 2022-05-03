@@ -93,5 +93,5 @@ void printUser(User *user, char *destinatin ) {
 void deleteUser(User **user) {
 free(*user);
 ////deleteProductArray
-printDescriptionMessage(DELETED);
+////printDescriptionMessage(DELETED);
 }
