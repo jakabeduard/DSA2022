@@ -5,11 +5,11 @@
 #ifndef MAIN_C_LAB_MANAGER_H
 #define MAIN_C_LAB_MANAGER_H
 #include "product.h"
-#include "user_bst.h"
-
 #include "constans.h"
 #include "user_array.h"
 #include "user_node.h"
+///#include "user_bst.h"
+#include "user_stack.h"
 
 void lab2();
 void lab3();
