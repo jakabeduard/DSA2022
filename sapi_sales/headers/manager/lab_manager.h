@@ -5,16 +5,18 @@
 #ifndef MAIN_C_LAB_MANAGER_H
 #define MAIN_C_LAB_MANAGER_H
 #include "product.h"
-
+#include "user_bst.h"
 
 #include "constans.h"
 #include "user_array.h"
 #include "user_node.h"
+
 void lab2();
 void lab3();
 void testProductFuncionalities();
 void testUserFuncionalities();
 void testNodeFuncionalities();
+void testUserBinaryTree();
 
 
 #endif //MAIN_C_LAB_MANAGER_H
