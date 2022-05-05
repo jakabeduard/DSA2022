@@ -6,13 +6,13 @@ int main() {
 
     printf("pi");
 
-testNodeFuncionalities();
+///testNodeFuncionalities();
 //testProductFuncionalities();
 //testUserFuncionalities();
 //lab2();
 //lab3();
 
-
+testUserBinaryTree();
 
     return 0;
 }

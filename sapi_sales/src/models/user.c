@@ -74,7 +74,9 @@ void printUser(User *user, char *destinatin ) {
     printf(  "\t%s details:\n"
              "\t\t-ID: %i\n"
              "\t\t- Type: %s\n"
-             "\t\t- Amout: %u\n"
+             "\t\t- Gender: %s\n"
+             "\t\t- Spetialization: %s\n"
+
              "\t\t- Creation date: %4i%2i%2i\n",
              user->name,
              user->id,

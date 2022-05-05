@@ -9,12 +9,12 @@ typedef struct  UserTreeNode{
     struct UserTreeNode *left , *right;
 }UserTreeNode;
 
-void create( UserTreeNode ** userTreeNode);
+void createTree( UserTreeNode ** userTreeNode);
 void insert( UserTreeNode ** userTreeNode, User *user);
-bool search( UserTreeNode * userTreeNode, int a );
-void inorderPrint(  UserTreeNode ** userTreeNode, char  *destination);
-void preorderPrint(  UserTreeNode ** userTreeNode, char  *destination);
-void postorderPrint(  UserTreeNode ** userTreeNode, char  *destination);
+bool search( UserTreeNode * userTreeNode, int inf );
+void inorderPrint(  UserTreeNode * userTreeNode);
+void preorderPrint(  UserTreeNode * userTreeNode);
+void postorderPrint(  UserTreeNode * userTreeNode);
 User *minimum (UserTreeNode *userTreeNode);
 User *maximum (UserTreeNode *userTreeNode);
 UserTreeNode *delete(UserTreeNode **userTreeNode, int a );

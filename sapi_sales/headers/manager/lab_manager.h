@@ -8,14 +8,14 @@
 #include "constans.h"
 #include "user_array.h"
 #include "user_node.h"
-///#include "user_bst.h"
+#include "user_bst.h"
 #include "user_stack.h"
-
-void lab2();
-void lab3();
-void testProductFuncionalities();
-void testUserFuncionalities();
-void testNodeFuncionalities();
+//
+//void lab2();
+//void lab3();
+//void testProductFuncionalities();
+//void testUserFuncionalities();
+//void testNodeFuncionalities();
 void testUserBinaryTree();
 
 
